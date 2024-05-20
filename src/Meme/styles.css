@@ -1,0 +1,72 @@
+.meme-text{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5%;
+    width: 40%;
+}
+input{
+    border-radius: 3px;
+    padding: 5px;
+    border:1px solid grey
+}
+
+button{
+    width: 90%;
+    background: linear-gradient(to right, rgb(128, 0, 255) , rgb(187, 52, 255));
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: 0px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mem-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.mema{
+    width: 50%;
+}
+
+.meme--text{
+
+    font-family: impact;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+
+.top{
+    position: absolute;
+    top: 3%;
+}
+
+.bott{
+    position: absolute;
+    bottom: 3%;
+}
+
+
